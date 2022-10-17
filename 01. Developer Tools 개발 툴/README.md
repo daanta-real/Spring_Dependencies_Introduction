@@ -1,4 +1,4 @@
-# 01.Developer Tools (개발 툴)
+# 01. Developer Tools (개발 툴)
 
 ## Spring Native [Experimental]
 기존의 자바 프로그램은, JAR(단일앱 일반), WAR(웹서버 용), EAR(여러 앱 모음) 등이 있으며
