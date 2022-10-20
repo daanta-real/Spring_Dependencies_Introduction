@@ -16,33 +16,33 @@ CRON 문자열을 이용하여 스케쥴링을 할 수 있다.
 웬만한 프로젝트는 두 의존성 중 하나 or 둘 다 사용하고 있다.
 https://byul91oh.tistory.com/275
 
-※ Spring Batch, Quartz Schedler 둘 다 똑같은 의존성 아닌가?
-틀린 말이다. 둘 다 기본적인 스케쥴링 작업을 지원하나, 엄연히 다른 의존성이다.
-Batch는 DBMS를 활용한 스케쥴링, 대용량 배치 처리 기능 등을 지원하여
-방대한 작업을 세밀하게 셋팅할 수 있는 Batch Job 중심의 라이브러리
-즉 작업 하나를 잘 하는 라이브러리이고 
-Quartz는 여러 스케쥴러 인스턴트 들의 클러스터링이 가능한
-Job Management 중심 즉 작업들을 잘 관리하는 라이브러리이다.
-따라서 보통 스케쥴링을 제대로 하는 프로젝트에서는,
-Spring Batch와 Quartz Scheduler를 함께 사용한다고 한다.
-Batch로 작업을 만들고 이를 Quartz로 묶어서 하는 식으로.
-https://www.stechstar.com/user/zbxe/JSPWebProg/51097
-https://hyejikim.tistory.com/67
-https://yongku.tistory.com/m/entry/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98Spring-Batch%EC%99%80-Quartz
-https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quartz
+   ※ Spring Batch, Quartz Schedler 둘 다 똑같은 의존성 아닌가?
+   틀린 말이다. 둘 다 기본적인 스케쥴링 작업을 지원하나, 엄연히 다른 의존성이다.
+   Batch는 DBMS를 활용한 스케쥴링, 대용량 배치 처리 기능 등을 지원하여
+   방대한 작업을 세밀하게 셋팅할 수 있는 Batch Job 중심의 라이브러리
+   즉 작업 하나를 잘 하는 라이브러리이고 
+   Quartz는 여러 스케쥴러 인스턴트 들의 클러스터링이 가능한
+   Job Management 중심 즉 작업들을 잘 관리하는 라이브러리이다.
+   따라서 보통 스케쥴링을 제대로 하는 프로젝트에서는,
+   Spring Batch와 Quartz Scheduler를 함께 사용한다고 한다.
+   Batch로 작업을 만들고 이를 Quartz로 묶어서 하는 식으로.
+   https://www.stechstar.com/user/zbxe/JSPWebProg/51097
+   https://hyejikim.tistory.com/67
+   https://yongku.tistory.com/m/entry/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98Spring-Batch%EC%99%80-Quartz
+   https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quartz
 
-참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
-1) Servlet-Context.xml에 Cron Namespace와 BEAN 등록
-2) 스프링 내장 @Scheduled 어노테이션
-   학원에서 배운 것이 이것이다.
-   최소한의 기본 기능만 있는 수준이고 정밀도가 엄청나게 높은 편은 아니어서,
-   사용 수준이 아마추어 레벨에 가깝다.
-3) Quartz Scheduler + Spring Batch
-4) Jenkins 등의 CI/CD 툴 별도 이용
-가장 좋은 방법은 3, 4 중 하나이다.
-스프링 안에서 관리하려면 Quartz가,
-통합 프로젝트에서 관리하려면 Jenkins가 답인 것 같다.
-https://wooncloud.tistory.com/m/75
+   참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
+   1) Servlet-Context.xml에 Cron Namespace와 BEAN 등록
+   2) 스프링 내장 @Scheduled 어노테이션
+      학원에서 배운 것이 이것이다.
+      최소한의 기본 기능만 있는 수준이고 정밀도가 엄청나게 높은 편은 아니어서,
+      사용 수준이 아마추어 레벨에 가깝다.
+   3) Quartz Scheduler + Spring Batch
+   4) Jenkins 등의 CI/CD 툴 별도 이용
+   가장 좋은 방법은 3, 4 중 하나이다.
+   스프링 안에서 관리하려면 Quartz가,
+   통합 프로젝트에서 관리하려면 Jenkins가 답인 것 같다.
+   https://wooncloud.tistory.com/m/75
 
 ## Validation
 ### 중요도: ★★★
@@ -86,9 +86,9 @@ http://jason-heo.github.io/programming/2021/08/28/jbang.html
 
 ## Spring Shell
 스프링 프로그래밍 모델을 기반으로 손쉽게 커맨드라인 애플리케이션(interactive shell)을
-만들 수 있도록 도와주는 프로젝트.
-Picocli랑 비슷한 라이브러리 같다.
+만들 수 있도록 도와주는 프로젝트. Picocli랑 비슷한 라이브러리로 추정.
 CLI 어플리케이션을 제공하는 이런 Shell 기반의 프로그램들에선
 사용자가 명령을 입력해서 원하는 기능을 실행할 수 있다고 한다.
+(CLI Application ≒ Shell Application ≒ Interactive Shell Application 약간 비슷한 건가 보네)
 https://javaworld.co.kr/67
 http://www.incodom.kr/Spring_Shell
