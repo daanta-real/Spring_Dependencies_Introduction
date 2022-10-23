@@ -50,7 +50,7 @@ https://velog.io/@armton/Docker-Springboot-RabbitMQ-%EC%B4%88%EA%B0%84%EB%8B%A8-
 https://intrepidgeeks.com/tutorial/using-rabbit-mq-in-spring-guide
 
 ## Spring for Apache Kafka
-Spring for Apache Kafka Streams
+## Spring for Apache Kafka Streams
 ### 중요도: ★★★
 데이터 이동에 쓰는 스트림들을 실시간으로 관리하고 보내기 위한 분산 스트리밍 플랫폼인 Kafka를 스프링에서 쓸 수 있게 해주는 기능.
 https://blog.naver.com/arkdata/222632637775
