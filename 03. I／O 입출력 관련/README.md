@@ -59,7 +59,7 @@ https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quart
 
 
 
-참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
+※ 참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
 
 1) Servlet-Context.xml에 Cron Namespace와 BEAN 등록
 
@@ -83,6 +83,8 @@ https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quart
 
 https://wooncloud.tistory.com/m/75
 
+
+
 ## Validation
 
 ### 중요도: ★★★
@@ -103,6 +105,9 @@ https://velog.io/@_koiil/SpringBoot-Spring-Validation%EC%9D%84-%EC%9D%B4%EC%9A%A
 
 https://wildeveloperetrain.tistory.com/25
 
+
+
+
 ## Java Mail Sender
 
 ### 중요도: ★★
@@ -119,6 +124,9 @@ https://victorydntmd.tistory.com/342
 
 https://theheydaze.tistory.com/255
 
+
+
+
 ## Spring cache abstraction
 
 ### 중요도: ★★
@@ -132,6 +140,9 @@ https://theheydaze.tistory.com/255
 하지만 Redis 같은 DB를 물려서 제대로 쓰려면 해당 소프트들은 따로 설치를 해줘야 한다고 한다.    
 
 https://12bme.tistory.com/550
+
+
+
 
 ## Picocli
 
@@ -154,6 +165,9 @@ http://taewan.kim/post/position_of_graalvm/
 https://kwonnam.pe.kr/wiki/java/picocli
 
 http://jason-heo.github.io/programming/2021/08/28/jbang.html
+
+
+
 
 ## Spring Shell
 

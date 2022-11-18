@@ -1,3 +1,4 @@
+
 # 04. Messaging (메시징)
 
 소규모를 넘어 중규모 서비스만 되어도,
@@ -44,6 +45,9 @@ https://bcho.tistory.com/259
 
 https://sejoung.github.io/2019/09/2019-09-04-Enterprise_Integration_Patterns/
 
+
+
+
 ## Spring Integration
 
 ### 중요도: ★
@@ -64,9 +68,14 @@ https://kchanguk.tistory.com/121
 
 https://velog.io/@daehoon12/Spring-Integration-Spring-Integration
 
+
+
+
 ## Spring for RabbitMQ
 
 ### 중요도: ★★★
+
+### Jobkorea 검색건수: 86건
 
 메세지 큐를 다룰 수 있게 해주는 메세지 솔루션.
 
@@ -100,11 +109,16 @@ https://velog.io/@armton/Docker-Springboot-RabbitMQ-%EC%B4%88%EA%B0%84%EB%8B%A8-
 
 https://intrepidgeeks.com/tutorial/using-rabbit-mq-in-spring-guide
 
+
+
+
 ## Spring for Apache Kafka
 
 ## Spring for Apache Kafka Streams
 
 ### 중요도: ★★★
+
+### Jobkorea 검색건수: 270건
 
 대규모 애플리케이션 간의 데이터 이동에 쓰는 이벤트 메세지 혹은 이벤트 스트림들을
 
@@ -128,6 +142,9 @@ https://www.youtube.com/watch?v=0Ssx7jJJADI
 
 https://www.youtube.com/watch?v=waw0XXNX-uQ&list=PL3Re5Ri5rZmkY46j6WcJXQYRlDRZSUQ1j
 
+
+
+
 ## Spring for Apache ActiveMQ 5
 
 가장 대중적이고 강력한 오픈 소스 메세징 그리고 통합 패턴 서버.
@@ -137,6 +154,9 @@ JMS랑 연관 있는 듯.
 카프카를 쓰면 이것도 같이 쓸 수 있는 것 같다.
 
 https://swiftymind.tistory.com/9
+
+
+
 
 ## Spring for Apache ActiveMQ Artemis
 
@@ -148,9 +168,14 @@ Java로 작성된 무료 멀티 프로토콜 Java 기반 메시지 브로커 소
 
 https://yorublog.tistory.com/46
 
+
+
+
 ## WebSocket
 
 ### 중요도: ★
+
+### Jobkorea 검색건수: 93건
 
 원래 HTTP 통신을 할 때에는 특징이 있었다.
 
@@ -178,6 +203,9 @@ https://www.educba.com/websocket-vs-socket-io/
 
 https://dev-gorany.tistory.com/212
 
+
+
+
 ## RSocket
 
 TCP, WebSocket, 그외에 다른 바이트 스트림 전송을 통해 다중화된 이중 통신 응용 프로그램 프로토콜.
@@ -191,6 +219,9 @@ Spring 5에서 새로 도입된 Reactive Stream 프로토콜을 지원한다고 
 기존에 없는 전혀 새로운 기술이라서 앞으로의 추이를 좀더 지켜볼 필요가 있다.  
 
 https://araikuma.tistory.com/847
+
+
+
 
 ## Apache Camel
 
@@ -213,6 +244,9 @@ https://miiingo.tistory.com/200
 https://bcho.tistory.com/715
 
 https://www.youtube.com/watch?v=Zwq8bxHnwqg
+
+
+
 
 ## Solace Pubsub+
 
