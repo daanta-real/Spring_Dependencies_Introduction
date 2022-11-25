@@ -7,6 +7,9 @@
 
 https://spring.io/projects
 
+
+
+
 # 그외
 
 스프링부트 프로젝트를 생성하는 예제와, 주요 의존성들을 연결하는 과정까지 간략하게 기술하였다.
@@ -22,6 +25,8 @@ https://velog.io/@sloools/Spring-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E%85-
 
 https://tgio.tistory.com/33
 
+
+아래는 가장 많이 참고한 자료이다.
 
 자료를 작성하는 목적도, 이후에 작성하게 된 내용도 본 리포와 가장 유사하다.
 
