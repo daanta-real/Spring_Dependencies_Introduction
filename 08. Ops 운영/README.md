@@ -1,6 +1,20 @@
 
-
 # 8. Ops
+
+DevOps라는 말을 많이 쓴다. DevOps는 소프트웨어 개발(DEVelopment)와 운영(OPerationS)의 합성어로써,
+
+개발팀과 운영팀 간의 원활한 소통과 협업으로 통일성 있게 업무를 추진하여
+
+제품의 품질/속도를 개선하고 릴리즈 주기를 단축시키고자하는 마인드,
+
+혹은 그러한 작업의 능률을 향상시키기 위해 출시된 제품들을 일컫는다.
+
+여기서 Ops라는 말은 운영을 뜻하며, 이 코너에서는 Ops 능률을 향상시키기 위해 이용되는 의존성들을 다룬다.
+
+https://www.netapp.com/ko/devops-solutions/what-is-devops/
+
+https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4
+
 
 
 
