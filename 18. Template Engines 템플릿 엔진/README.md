@@ -16,7 +16,7 @@ JSP는 서버측 데이터 즉 비즈니스 로직을 페이지 렌더링하면�
 
 2) 요즘에는 스프링부트에서 공식적으로 지원하는 템플릿 엔진인
 
-Thymeleaf, Freemaker, Mustache, Groovy 등을 쓴다.
+Thymeleaf, Freemaker, Mustache 등을 쓴다.
 
 3) 하지만, 이것도 결국 없어도 되는 엔진이 추가되는 점은 동일하므로 있는 것 자체로 성능이 떨어진다.
 
@@ -34,16 +34,20 @@ https://www.inflearn.com/questions/72824
 
 5) 놀랍게도 템플릿 엔진의 성능은 Thymeleaf가 가장 나쁘다고 한다. JSP보다도 나쁘다고..
 
-정확한 성능은 Mustache > Freemarker > Velocity > JSP > Thymeleaf
-
-
+정확한 성능은 Mustache > Freemarker > Velocity > JSP > Thymeleaf > Groovy
 
 https://offbyone.tistory.com/410
+
+https://dev-gorany.tistory.com/302
 
 
 
 
 ## Thymeleaf
+
+### 중요도: ★
+
+### Jobkorea 검색건수: 47건
 
 스프링부트에서 공식적으로 지원하는 템플릿 엔진이다.
 
@@ -64,7 +68,9 @@ https://myeongdev.tistory.com/20
 
 
 
-Apache Freemarker
+# Apache Freemarker
+
+### Jobkorea 검색건수: 2건
 
 아파치에서 개발한 템플릿 엔진이다.
 
@@ -81,7 +87,11 @@ https://yuniel.tistory.com/37
 
 
 
-Mustache
+# Mustache
+
+### 중요도: ★★★
+
+### Jobkorea 검색건수: 47건
 
 이것도 많이 쓴다.
 
@@ -114,8 +124,8 @@ https://kkambi.tistory.com/43
 
 
 
-Groovy Templates
+# Groovy Templates
 
 유명하다고는 하는데 위의 3개 보다는 잘 안 쓰는 것 같다.
 
-개인적으로는 공부하지 않을 생각이다.
+성능이 나쁘다. 개인적으로는 공부하지 않을 생각이다.
