@@ -29,7 +29,10 @@ CRON 문자열을 이용하여 스케쥴링을 할 수 있다.
 
 https://byul91oh.tistory.com/275
 
-※ Spring Batch, Quartz Schedler 둘 다 똑같은 의존성 아닌가?
+
+
+
+## Spring Batch, Quartz Schedler 둘 다 똑같은 의존성 아닌가?
 
 틀린 말이다. 둘 다 기본적인 스케쥴링 작업을 지원하나, 엄연히 다른 의존성이다.
 
@@ -59,7 +62,7 @@ https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quart
 
 
 
-※ 참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
+## 참고로 스프링 환경에서 스케쥴링 기능을 쓰는 방법은 대표적으로 4가지이다.
 
 1) Servlet-Context.xml에 Cron Namespace와 BEAN 등록
 

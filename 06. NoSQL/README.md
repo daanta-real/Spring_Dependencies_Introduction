@@ -17,7 +17,7 @@
 
 사람들은 이들을 'Not Only SQL(SQL만 쓰지는 않음)'이란 뜻의 NoSQL이라고 불렀다.
 
-※ 'NO SQL(SQL이 아님)'이란 뜻이 아니다. SQL 외의 요소를 주로 사용한단 뜻이다. 주의
+('NO SQL(SQL이 아님)'이란 뜻이 아니다. SQL 외의 요소를 주로 사용한단 뜻이다. 주의)
 
 참고로 RDBMS가 떠오르기 전에 등장한 기존 1,2,3세대 구형 DBMS는 NoSQL로 쳐주지 않는다.
 
@@ -151,7 +151,7 @@ https://bourbonkk.tistory.com/83
 
 하지만 성능평가 논문을 보면 Redis나 MongoDB에 비해 눈물이 나올 수준으로 느리다.
 
-※ 논문을 보면 HBase라는 DBMS도 보이는데 이것도 성능이 별로다.
+논문을 보면 HBase라는 DBMS도 보이는데 이것도 성능이 별로다.
 
 http://blessldk.blogspot.com/2013/02/redis-vs-cassandra-1.html
 
@@ -221,3 +221,18 @@ Couchbase를 쓸 때 Reactive하게 쓸 수 있게 해주는 녀석 같다..
 노드와 이에 해당하는 연산 사이의 종속관계를 쉽게 다룰 수 있게 하는 DBMS라고 함.
 
 https://wordbe.tistory.com/entry/Spring-Data-Neo4j-%EC%82%AC%EC%9A%A9
+
+
+
+
+## ※ 번외편: MongoDB
+
+### 중요도: ★★
+
+### Jobkorea 검색건수: 293건
+
+MongoDB가 MariaDB보다 핫하다.
+
+https://forteleaf.blogspot.com/2016/06/db-vs-db.html
+
+https://velog.io/@cmong/MongoDB-vs-MySQL-vs-SQLite3-%EB%AD%98%EC%93%B0%EC%A7%80

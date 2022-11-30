@@ -51,11 +51,11 @@ Influx는 단순히 DBMS이므로, 여기에 특정 기준으로 데이터를 �
 
 입력기는 주로 시스템 모니터링 및 지표 수집 에이전트(실행기)인 Telegraf라는 것을 함께 물려서 사용한다.
 
-※ Influx를 만든 회사인 InfluxDB사에서 제작했다
+(Influx를 만든 회사인 InfluxDB사에서 제작했다)
 
 출력기로는 주로 Grafana라고 데이터를 이쁘게 보여주는 서비스에 주로 물려서 쓴다고 한다.
 
-※ Grafana는 오픈소스 메트릭(데이터의 시각화) 전문 도구이다.
+(Grafana는 오픈소스 메트릭(데이터의 시각화) 전문 도구이다.)
 
 그렇게 구현된 모니터링 저장 및 화면출력 시스템 구조는 아래와 같다.
 
@@ -126,7 +126,7 @@ Grafana와 같은 모니터링 의존성인데, Grafana보다 인기가 훨씬 �
 
 일단 네이버가 자바 앱 모니터링에 이렇게 쓴다고 한다.
 
-※ Graphite를 물려서 쓰는 경우는 많지 않다.
+(Graphite를 물려서 쓰는 경우는 많지 않다.)
 
 https://meetup.toast.com/posts/237
 
@@ -178,7 +178,7 @@ https://engineering.linecorp.com/ko/blog/line-ads-msa-opentracing-zipkin/
 
 
 
-※ 번외편: Jaeger, Zipkin, Sleuth
+## 번외편: Jaeger, Zipkin, Sleuth
 
 Jaeger > Zipkin >>>> Sleuth 순으로 인기가 많다.
 

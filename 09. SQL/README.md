@@ -85,7 +85,7 @@ Spring Data JPA = Spring Data 시리즈 중 JPA에 해당하는 의존성이다.
 
 Spring Data JDBC = 위의 JPA
 
-※ Spring JPA = ← ← ← 존재하지 않는 표현이다. 가끔 블로그에서 Spring Data JPA를 이걸로 부르던데 틀린 표현이다.
+(Spring JPA = ← ← ← 이거는 존재하지 않는 표현이다. 가끔 블로그에서 Spring Data JPA를 이걸로 부르던데 틀린 표현이다.)
 
 https://suhwan.dev/2019/02/24/jpa-vs-hibernate-vs-spring-data-jpa/
 
@@ -112,20 +112,26 @@ https://suhwan.dev/2019/02/24/jpa-vs-hibernate-vs-spring-data-jpa/
 
 그냥 있다는 것 정도만 알자.
 
-※ "JDBC를" 자바에서 직접 쓰기
+
+
+
+#### "JDBC를" 자바에서 직접 쓰기
 
 https://db2helmet.tistory.com/66 
 
 https://jwkim96.tistory.com/98
 
-※ JDBC를 실행하는 의존성인 "JDBC API"를 스프링에서 쓰기
+
+
+
+#### JDBC를 실행하는 의존성인 "JDBC API"를 스프링에서 쓰기
 
 https://gmlwjd9405.github.io/2018/05/15/setting-for-db-programming.html
 
 
 
 
-# 번외편: Spring JDBC
+#### 번외편: Spring JDBC
 
 스프링에서 JDBC API를 편리하게 사용하기 위해 만든 JDBC API의 개선판이다.
 
@@ -155,6 +161,9 @@ https://soongjamm.tistory.com/134
 ## Spring Data JPA
 
 ### 중요도: ★★★
+
+### Jobkorea 검색건수: 69건 (Hibernate)
+
 
 프로그래밍 언어를 써서 코드로 DBMS에 접근할 때,
 
@@ -482,7 +491,7 @@ https://namu.wiki/w/PostgreSQL
 
 
 
-## ※ 번외편: Snowflake
+## 번외편: Snowflake
 
 ### 중요도: ★
 
@@ -503,9 +512,9 @@ https://signal.sedaily.com/Common/FileDownload?fileName=[%EC%8A%A4%ED%8E%98%EC%8
 
 
 
-## ※ 번외편: Firebase
+## 번외편: Firebase
 
-### 중요도: ★
+### 중요도: ★★
 
 ### Jobkorea 검색건수: 196건
 

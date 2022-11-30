@@ -34,10 +34,6 @@ https://ko.wikipedia.org/wiki/%EB%8D%B0%EB%B8%8C%EC%98%B5%EC%8A%A4
 
 URL 페이지에 접속한다면 정보들이 http와 JMX, JSON 등으로 뜨는 걸 볼 수 있다.
 
-※ 엔드포인트는 소통 관계에서의 한쪽 끝 즉 '접촉점'을 말하는 것이다.
-
-앱에서는 원하는 메뉴에서의 접촉 경로라고 말할 수 있겠고, API에서는 URI라고 말할 수 있겠다.
-
 https://sabarada.tistory.com/23
 
 https://incheol-jung.gitbook.io/docs/study/srping-in-action-5th/chap-16.
@@ -51,6 +47,15 @@ https://velog.io/@neptunes032/Spring-Boot-Actuator-%EC%82%AC%EC%9A%A9%ED%95%B4%E
 http://forward.nhnent.com/hands-on-labs/java.spring-boot-actuator/01-ready.html
 
 https://blog.naver.com/PostView.naver?blogId=ghdalswl77&logNo=222401162545&parentCategoryNo=&categoryNo=90&viewDate=&isShowPopularPosts=true&from=search
+
+
+
+
+## 엔드포인트
+
+엔드포인트는 소통 관계에서의 한쪽 끝 즉 '접촉점'을 말하는 것이다.
+
+앱에서는 원하는 메뉴에서의 접촉 경로라고 말할 수 있겠고, API에서는 URI라고 말할 수 있겠다.
 
 
 
