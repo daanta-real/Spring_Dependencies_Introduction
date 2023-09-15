@@ -66,6 +66,12 @@ https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quart
 
 1) Servlet-Context.xml에 Cron Namespace와 BEAN 등록
 
+   XML에 스케쥴링을 등록하는 방법이다.
+   
+   스프링부트에서는 2번 방법을 쓰면 편하게 스케쥴링할 수 있는데,
+   
+   이 방법은 너무 옛날 방식이다. 따라서 쓰이지 않는다.
+
 2) 스프링 내장 @Scheduled 어노테이션
 
    학원에서 배운 것이 이것이다.
@@ -74,15 +80,35 @@ https://stackoverflow.com/questions/4385719/spring-scheduling-scheduled-vs-quart
 
    사용 수준이 아마추어 레벨에 가깝다.
 
+   그러나, 간단한 작업만 필요할 경우에는 이것만으로도 충분하다고 판단된다.
+
+   Spring Boot에서 제대로 사용하려면 Application 클래스에 @EnableScheduling
+
+   어노테이션을 붙여 사용하면 된다.
+
 3) Quartz Scheduler + Spring Batch
+
+   정밀도가 아주 높다. 간단한 작업이 아닌 이상 여기를 쓰는 것이 좋다.
+
+   복잡한 작업이면 여기 외에는 선택지가 없다.
 
 4) Jenkins 등의 CI/CD 툴 별도 이용
 
-가장 좋은 방법은 3, 4 중 하나이다.
+   배포관리나 스케쥴링, 통합 테스트 등의 자동화는 여기를 쓰는 것이 좋다.
 
-스프링 안에서 관리하려면 Quartz가,
+   그러나, 이건 앱 내부에서 쓸 수 있는 툴이 아니다.
+   
+   앱의 빌드와 배포, 테스트 관리 등 앱 외부적인 '환경' 관련된 작업만
 
-통합 프로젝트에서 관리하려면 Jenkins가 답인 것 같다.
+   관리할 수 있는 툴이다.
+
+   그러니까 1/2/3과 관련이 없는 툴이란 거다.
+
+가장 좋은 방법은 3이다.
+
+앱에서는 Quartz를 쓰고, 관련된 파이프라인 작업은 Jenkins를 쓰자.
+
+https://veneas.tistory.com/entry/Spring-Boot-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8A%A4%EC%BC%80%EC%A4%84-%EC%9E%91%EC%97%85-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0EnableScheduling-Scheduled
 
 https://wooncloud.tistory.com/m/75
 
