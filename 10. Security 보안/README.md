@@ -13,6 +13,8 @@ SSO(Single-sign-on) https://toma0912.tistory.com/75
 
 ## Spring Security
 
+### 중요도: ★★★★★
+
 인증, 권한에 대한 처리를 Filter를 이용해서 할 수 있는 스프링 하위 프레임워크다.
 
 Intercepter는 Dispatcher를 지난 뒤 Controller로 가는 과정에서 실행되지만,
@@ -23,6 +25,18 @@ Intercepter는 Dispatcher를 지난 뒤 Controller로 가는 과정에서 실행
 
 그러나 현재는 이걸 직접 쓰지 않고 다른 툴을 덧붙여서 쓰는 듯?
 
+OAuth든 JWT든 이것을 기반으로 하는 것으로 추정되기에,
+
+셋팅법을 꼭 알아야 할 것으로 보인다.
+
+또한, Spring Boot 3.0 업뎃으로 Spring Security 또한 6.0버전으로 업그레이드되었으며,
+
+그에 따라 몇몇 메소드들이 deprecated되거나 변경되었다.
+
+당분간은 버전 별 셋팅이 다르다는 점에 신경써야 할 것이다.
+
+https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security
+
 https://mangkyu.tistory.com/76
 
 https://velog.io/@seongwon97/Spring-Security-Spring-Security%EB%9E%80
@@ -30,6 +44,12 @@ https://velog.io/@seongwon97/Spring-Security-Spring-Security%EB%9E%80
 https://lotuus.tistory.com/78
 
 https://velog.io/@shawnhansh/Spring-Security%EC%99%80-OAuth2-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
+
+https://whatistudy.tistory.com/entry/%EC%B6%94%EA%B0%80-AuthorizeRequests-vs-AuthorizeHttpRequests
+
+https://hoonzi-text.tistory.com/121
+
+https://nahwasa.com/entry/%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B6%80%ED%8A%B8-20%EC%97%90%EC%84%9C-30-%EC%8A%A4%ED%94%84%EB%A7%81-%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0-%EB%A7%88%EC%9D%B4%EA%B7%B8%EB%A0%88%EC%9D%B4%EC%85%98-%EB%B3%80%EA%B2%BD%EC%A0%90
 
 
 
