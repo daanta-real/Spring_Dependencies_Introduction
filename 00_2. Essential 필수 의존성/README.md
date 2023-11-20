@@ -54,22 +54,68 @@ https://velog.io/@damiano1027/Spring-%EC%9D%98%EC%A1%B4%EC%84%B1-%EC%A3%BC%EC%9E
 
 
 
-### 1-2. Spring Web
+### 1-2. Spring Context
 
-스프링에서 서블릿 API, 필터 등 HTTP 관련 동작 처리를 하기 위한 각종 필수적인 기능을 쓸 수 있게 해준다.
+Bean의 확장 버전이다. Spring이 Bean을 다루기 좀더 쉽도록 기능들을 추가한 일종의 공간 담당자인데,
+
+설정 정보를 로드해서 앱의 전반적인 변수 및 셋팅값들을 관리하고,
+
+Spring에서 사용되는 환경변수/셋팅과 객체관리 등을 개발자가 신경쓰지 않게 해준다.
+
+특히, Bean을 자동으로 생성/관리/초기화하는 작업을 해주는 것과,
+
+객체 간의 의존성 주입을 자동으로 해주는 것 이 두 가지가 가장 중요한 사용 이유이며
+
+이게 없으면 Spring IoC 컨테이너를 사용할 수 없게 되고,
+
+객체 간의 의존성을 수동으로 주입해야 한다고 한다.
+
+예를 하나 든다. Java에서는 서블릿이 있는데, Spring에서는 모든 객체는 Bean으로 관리되기 때문에,
+
+서블릿 역시 Bean으로 관리된다고 한다.
+
+그러나 Java는 멀티스레드 환경이므로 이 Bean 하나를 공유해서 돌려쓰는데
+
+이를 위해서는 복잡한 관리가 필요하다. Spring Context가 이런 일을 해주나 보다.
+
+https://workshop-6349.tistory.com/entry/Spring-Spring-Context-%EC%84%A4%EB%AA%85
+
+
+
+
+### 1-3. Spring AOP
+
+관점 지향 프로그래밍(AOP)을 사용하여, Logging / Transaction 등의
+
+다양한 부가 기능을 쉽게쉽게 추가할 수 있게 해준다.
+
+이게 없으면 해당 기능을 직접 코드로 구현해야 한다고 한다.
+
+
+
+
+### 1-4. Spring Web
+
+Spring에서 서블릿 API, 필터 등 HTTP 관련 동작 처리를 하기 위한 각종 필수적인 기능을 쓸 수 있게 해준다.
 
 타 웹 프레임워크와 유기적으로 연동하기 위한 기능들도 지원한다.
+
+DispatcherServlet이 추가되어 클라이언트의 모든 요청을 단 하나의 Servlet에서 처리할 수 있게 되고,
+
+Filter와 Intercepter의 사용이 가능해진다.
+
+다국어 지원과 테마(?) 등도 사용할 수 있다는데.. 아주 만병통치약 같은 설명이네.
 
 https://stackoverflow.com/questions/13533700/maven-dependency-spring-web-vs-spring-webmvc
 
 
 
 
-### 1-3. Spring Web MVC (= Spring MVC)
+### 1-5. Spring Web MVC (= Spring MVC)
 
-Spring Web만 있으면 서버가 단순히 서블릿 형태로만 굴러간다.
+Spring Web만 있으면 서버가 아무리 잘 만들어져도 단순히 Servlet 모드로만 굴러간다.
 
-MVC(모델/뷰/컨트롤러) 형태로 처리하기 위해서는 이 모듈이 필요하다.
+MVC(모델/뷰/컨트롤러) 형태로 구조를 확장하려면 이 모듈이 반드시 필요하다.
 
 https://velog.io/@hanblueblue/%EB%B2%88%EC%97%AD-Spring2-Spring-Web-MVC
 
@@ -82,7 +128,7 @@ https://dadadamarine.github.io/java/spring/2019/05/02/spring-MVC-%EA%B5%AC%EC%A1
 
 
 
-### 1-4. Springboot starter tomcat
+### 1-5. Springboot starter tomcat
 
 스프링부트 내장 버전의 톰캣, 통칭 내장 톰캣 또는 임베디드 톰캣이라고 부른다.
 
