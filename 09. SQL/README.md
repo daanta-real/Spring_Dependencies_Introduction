@@ -63,17 +63,21 @@ Hibernate = 위 JPA 규격을 실제로 구현한 구현체이다. JPA를 실제
       
             이 때문에 JPA = Hibernate인 줄로 잘못 착각하는 나 같은 사람이 생기게 되었다.)
 
-Spring Data = 스프링에서는 각 데이터베이스에 좀더 쉽게 접근할 수 있도록
-      
-              데이터베이스와 상관 없이 똑같은 형태의 추상화 객체를 제공하려 한다.
-      
-              스프링 쓸 때는 데이터베이스를 신경쓰지 말고 스프링에서 주는 객체를 신경 쓰라는 이야기이다.
-      
-              DB 별로 한 개씩 시리즈가 있다. Spring Data JPA, Spring Data MongoDB, Spring Data Redis 등등..
-      
-              만약에 이걸 잘 쓸 줄 안다면 각종 DB를 비슷한 개면의 추상화 객체로 동시에 잘 다룰 수 있을 것이다.
-              
+#### Spring Data
+```text
+데이터베이스 조작을 쿼리가 아닌 코드로 할 수 있게 해주는 의존성.
+이걸 쓰면 스프링에서는 데이터베이스와 상관 없이 똑같은 형태의 추상화 객체를 제공받아 쓸 수 있다.
+이는 쿼리를 직접 쓸 수 있게 하는 Spring MyBatis 플러그인과 대척점에 있는 플러그인이다.
+단, 일반 코드가 아닌 JPA를 쓰려면 아래와 같이 Spring Data JPA를 같이 써야 한다.
+
+1) Spring PSQL + Spring MyBatis → DB 조작을 SQL 쿼리로 직접 수행
+2) Spring PSQL + Spring Data → DB 조작을 코드 중심 Repository로 수행 (SQL 최소 사용)
+3) Spring PSQL + Spring Data JPA → DB 조작을 JPA 엔티티와 Repository로 수행
+
+아무튼 Spring Data JPA, Spring Data MongoDB, Spring Data Redis 등등..
+여러 가지를 잘 구분하고 쓸 줄 안다면 각종 DB를 비슷한 개면의 추상화 객체로 동시에 잘 다룰 수 있을 것이다.
 https://brunch.co.kr/@springboot/107
+```
 
 Spring Data JPA = Spring Data 시리즈 중 JPA에 해당하는 의존성이다.
               
